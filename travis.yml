@@ -1,0 +1,6 @@
+ 
+ - clang
+ - gcc
+ script:
+ - gcc -o test Reverse_pyramid.c // we can use gcc instead of clang too
+ - ./test
